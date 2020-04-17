@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#password-container {
+    display: none;
+    font-family: 'Lato', sans-serif;
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px 0;
+    text-align: center;
+    background-color: coral;
+    color: darkcyan;
+    border-radius: 50px;
+
+}
+
+#password-container p {
+    padding-top: 30px;
+    font-size: 25px;
+    color: yellow;
+}
+
+/* selettore con classe aggiunta dal js per visualizzare l'elemento p dovo aver inserito i dati nel prompt */
+#password-container.visible {
+    display: block;
+}
