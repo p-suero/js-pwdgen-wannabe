@@ -1,1 +1,1 @@
-<p> #15 Creazione di un generatore di passwors (primo esercizio JS) </p>
+<p> #15 Creazione di un generatore di password </p>
